@@ -1,0 +1,356 @@
+[0.000000] (-) TimerEvent: {}
+[0.000187] (live1288_service) JobQueued: {'identifier': 'live1288_service', 'dependencies': OrderedDict()}
+[0.000213] (live1288_hw1) JobQueued: {'identifier': 'live1288_hw1', 'dependencies': OrderedDict([('live1288_service', '/home/lisvent/ros2_ws/install/live1288_service')])}
+[0.000244] (live1288_service) JobStarted: {'identifier': 'live1288_service'}
+[0.015050] (live1288_service) JobProgress: {'identifier': 'live1288_service', 'progress': 'cmake'}
+[0.016038] (live1288_service) Command: {'cmd': ['/usr/bin/cmake', '/home/lisvent/ros2_ws/src/live1288_service', '-DCMAKE_INSTALL_PREFIX=/home/lisvent/ros2_ws/install/live1288_service'], 'cwd': '/home/lisvent/ros2_ws/build/live1288_service', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lisvent'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lisvent'), ('OLDPWD', '/home/lisvent/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/lisvent/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lisvent'), ('NAME', 'LisaPC'), ('WSL_INTEROP', '/run/WSL/22297_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2025a/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Tailscale/:/mnt/c/Program Files/dotnet/:/mnt/c/Users/lisve/AppData/Local/Programs/Python/Python313/Scripts/:/mnt/c/Users/lisve/AppData/Local/Programs/Python/Python313/:/mnt/c/Users/lisve/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/lisve/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/lisve/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/lisve/.dotnet/tools:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '12'), ('AMENT_PREFIX_PATH', '/home/lisvent/ros2_ws/install/live1288_hw1:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/lisvent/ros2_ws/build/live1288_service'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lisvent/ros2_ws/install/live1288_hw1/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/home/lisvent/ros2_ws/install/live1288_hw1:/opt/ros/humble')]), 'shell': False}
+[0.100368] (-) TimerEvent: {}
+[0.200898] (-) TimerEvent: {}
+[0.280041] (live1288_service) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.301100] (-) TimerEvent: {}
+[0.402170] (-) TimerEvent: {}
+[0.505732] (-) TimerEvent: {}
+[0.608521] (-) TimerEvent: {}
+[0.712709] (-) TimerEvent: {}
+[0.813145] (-) TimerEvent: {}
+[0.914771] (live1288_service) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.914964] (-) TimerEvent: {}
+[1.018657] (-) TimerEvent: {}
+[1.122862] (-) TimerEvent: {}
+[1.227008] (-) TimerEvent: {}
+[1.303379] (live1288_service) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.327468] (-) TimerEvent: {}
+[1.428183] (-) TimerEvent: {}
+[1.451329] (live1288_service) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.456244] (live1288_service) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.467928] (live1288_service) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.468899] (live1288_service) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.473538] (live1288_service) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.528354] (-) TimerEvent: {}
+[1.621993] (live1288_service) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.628580] (live1288_service) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.629044] (-) TimerEvent: {}
+[1.629197] (live1288_service) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.629343] (live1288_service) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.651315] (live1288_service) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.729225] (-) TimerEvent: {}
+[1.771833] (live1288_service) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.830318] (-) TimerEvent: {}
+[1.883356] (live1288_service) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.890364] (live1288_service) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.903467] (live1288_service) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.931612] (-) TimerEvent: {}
+[2.035747] (-) TimerEvent: {}
+[2.105768] (live1288_service) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.137111] (-) TimerEvent: {}
+[2.161702] (live1288_service) StdoutLine: {'line': b'-- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[2.240113] (-) TimerEvent: {}
+[2.344371] (-) TimerEvent: {}
+[2.408083] (live1288_service) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.446055] (-) TimerEvent: {}
+[2.550178] (-) TimerEvent: {}
+[2.569169] (live1288_service) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.650405] (-) TimerEvent: {}
+[2.750861] (-) TimerEvent: {}
+[2.775647] (live1288_service) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.852616] (-) TimerEvent: {}
+[2.910032] (live1288_service) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[2.923139] (live1288_service) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.953943] (-) TimerEvent: {}
+[3.058095] (-) TimerEvent: {}
+[3.162320] (-) TimerEvent: {}
+[3.266665] (-) TimerEvent: {}
+[3.370826] (-) TimerEvent: {}
+[3.425704] (live1288_service) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[3.425938] (live1288_service) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.426012] (live1288_service) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.426098] (live1288_service) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[3.442101] (live1288_service) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[3.472062] (-) TimerEvent: {}
+[3.523774] (live1288_service) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.560481] (live1288_service) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.564155] (live1288_service) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.566358] (live1288_service) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.568924] (live1288_service) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.572373] (-) TimerEvent: {}
+[3.601109] (live1288_service) StdoutLine: {'line': b'-- Generating done\n'}
+[3.609484] (live1288_service) StdoutLine: {'line': b'-- Build files have been written to: /home/lisvent/ros2_ws/build/live1288_service\n'}
+[3.615522] (live1288_service) CommandEnded: {'returncode': 0}
+[3.617711] (live1288_service) JobProgress: {'identifier': 'live1288_service', 'progress': 'build'}
+[3.617803] (live1288_service) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lisvent/ros2_ws/build/live1288_service', '--', '-j8', '-l8'], 'cwd': '/home/lisvent/ros2_ws/build/live1288_service', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lisvent'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lisvent'), ('OLDPWD', '/home/lisvent/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/lisvent/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lisvent'), ('NAME', 'LisaPC'), ('WSL_INTEROP', '/run/WSL/22297_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2025a/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Tailscale/:/mnt/c/Program Files/dotnet/:/mnt/c/Users/lisve/AppData/Local/Programs/Python/Python313/Scripts/:/mnt/c/Users/lisve/AppData/Local/Programs/Python/Python313/:/mnt/c/Users/lisve/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/lisve/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/lisve/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/lisve/.dotnet/tools:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '12'), ('AMENT_PREFIX_PATH', '/home/lisvent/ros2_ws/install/live1288_hw1:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/lisvent/ros2_ws/build/live1288_service'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lisvent/ros2_ws/install/live1288_hw1/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/home/lisvent/ros2_ws/install/live1288_hw1:/opt/ros/humble')]), 'shell': False}
+[3.648371] (live1288_service) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.656575] (live1288_service) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.664402] (live1288_service) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_live1288_service\n'}
+[3.672646] (-) TimerEvent: {}
+[3.774365] (-) TimerEvent: {}
+[3.878563] (-) TimerEvent: {}
+[3.884443] (live1288_service) StdoutLine: {'line': b'running egg_info\n'}
+[3.885257] (live1288_service) StdoutLine: {'line': b'creating live1288_service.egg-info\n'}
+[3.885950] (live1288_service) StdoutLine: {'line': b'writing live1288_service.egg-info/PKG-INFO\n'}
+[3.886307] (live1288_service) StdoutLine: {'line': b'writing dependency_links to live1288_service.egg-info/dependency_links.txt\n'}
+[3.886595] (live1288_service) StdoutLine: {'line': b'writing top-level names to live1288_service.egg-info/top_level.txt\n'}
+[3.887008] (live1288_service) StdoutLine: {'line': b"writing manifest file 'live1288_service.egg-info/SOURCES.txt'\n"}
+[3.891359] (live1288_service) StdoutLine: {'line': b"reading manifest file 'live1288_service.egg-info/SOURCES.txt'\n"}
+[3.891710] (live1288_service) StdoutLine: {'line': b"writing manifest file 'live1288_service.egg-info/SOURCES.txt'\n"}
+[3.921195] (live1288_service) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_build_live1288_service_egg\n'}
+[3.921556] (live1288_service) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/live1288_service__rosidl_generator_c.dir/rosidl_generator_c/live1288_service/srv/detail/live1288_service__functions.c.o\x1b[0m\n'}
+[3.935394] (live1288_service) StdoutLine: {'line': b'[  9%] Built target live1288_service__cpp\n'}
+[3.944448] (live1288_service) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.944709] (live1288_service) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.944964] (live1288_service) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.978821] (-) TimerEvent: {}
+[4.003258] (live1288_service) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library liblive1288_service__rosidl_generator_c.so\x1b[0m\n'}
+[4.081031] (-) TimerEvent: {}
+[4.107306] (live1288_service) StdoutLine: {'line': b'[ 22%] Built target live1288_service__rosidl_generator_c\n'}
+[4.117689] (live1288_service) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[4.119857] (live1288_service) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.120099] (live1288_service) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.181207] (-) TimerEvent: {}
+[4.231994] (live1288_service) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/live1288_service__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/live1288_service/srv/live1288_service__type_support.cpp.o\x1b[0m\n'}
+[4.266441] (live1288_service) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/live1288_service__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/live1288_service/srv/detail/live1288_service__type_support.cpp.o\x1b[0m\n'}
+[4.281399] (-) TimerEvent: {}
+[4.294400] (live1288_service) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/live1288_service__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/live1288_service/srv/detail/dds_fastrtps/live1288_service__type_support.cpp.o\x1b[0m\n'}
+[4.381741] (-) TimerEvent: {}
+[4.423684] (live1288_service) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/live1288_service__rosidl_typesupport_c.dir/rosidl_typesupport_c/live1288_service/srv/live1288_service__type_support.cpp.o\x1b[0m\n'}
+[4.461532] (live1288_service) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library liblive1288_service__rosidl_typesupport_c.so\x1b[0m\n'}
+[4.465356] (live1288_service) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/live1288_service__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/live1288_service/srv/detail/live1288_service__type_support.c.o\x1b[0m\n'}
+[4.477400] (live1288_service) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/live1288_service__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/live1288_service/srv/detail/live1288_service__type_support_c.cpp.o\x1b[0m\n'}
+[4.481973] (-) TimerEvent: {}
+[4.511827] (live1288_service) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking C shared library liblive1288_service__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[4.582310] (-) TimerEvent: {}
+[4.586280] (live1288_service) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library liblive1288_service__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[4.586661] (live1288_service) StdoutLine: {'line': b'[ 61%] Built target live1288_service__rosidl_typesupport_c\n'}
+[4.613337] (live1288_service) StdoutLine: {'line': b'[ 61%] Built target live1288_service__rosidl_typesupport_introspection_c\n'}
+[4.683032] (-) TimerEvent: {}
+[4.701918] (live1288_service) StdoutLine: {'line': b'[ 61%] Built target live1288_service__rosidl_typesupport_cpp\n'}
+[4.708319] (live1288_service) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library liblive1288_service__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[4.783290] (-) TimerEvent: {}
+[4.790584] (live1288_service) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library liblive1288_service__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[4.848721] (live1288_service) StdoutLine: {'line': b'[ 67%] Built target live1288_service__rosidl_typesupport_introspection_cpp\n'}
+[4.858730] (live1288_service) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library liblive1288_service__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[4.883577] (-) TimerEvent: {}
+[4.914244] (live1288_service) StdoutLine: {'line': b'[ 70%] Built target live1288_service__rosidl_typesupport_fastrtps_cpp\n'}
+[4.983723] (live1288_service) StdoutLine: {'line': b'[ 70%] Built target live1288_service__rosidl_typesupport_fastrtps_c\n'}
+[4.983944] (-) TimerEvent: {}
+[5.000586] (live1288_service) StdoutLine: {'line': b'[ 70%] Built target live1288_service\n'}
+[5.016670] (live1288_service) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[5.085865] (-) TimerEvent: {}
+[5.190097] (-) TimerEvent: {}
+[5.294492] (-) TimerEvent: {}
+[5.309071] (live1288_service) StdoutLine: {'line': b'[ 74%] Built target live1288_service__py\n'}
+[5.325778] (live1288_service) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/live1288_service__rosidl_generator_py.dir/rosidl_generator_py/live1288_service/srv/_live1288_service_s.c.o\x1b[0m\n'}
+[5.394763] (-) TimerEvent: {}
+[5.489761] (live1288_service) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/live1288_service/liblive1288_service__rosidl_generator_py.so\x1b[0m\n'}
+[5.495131] (-) TimerEvent: {}
+[5.595866] (-) TimerEvent: {}
+[5.611540] (live1288_service) StdoutLine: {'line': b'[ 80%] Built target live1288_service__rosidl_generator_py\n'}
+[5.631117] (live1288_service) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/live1288_service__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/live1288_service/_live1288_service_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[5.631563] (live1288_service) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/live1288_service__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/live1288_service/_live1288_service_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[5.631757] (live1288_service) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/live1288_service__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/live1288_service/_live1288_service_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[5.696193] (-) TimerEvent: {}
+[5.734523] (live1288_service) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/live1288_service/live1288_service_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.738690] (live1288_service) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/live1288_service/live1288_service_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.738888] (live1288_service) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/live1288_service/live1288_service_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.796357] (-) TimerEvent: {}
+[5.804946] (live1288_service) StdoutLine: {'line': b'[100%] Built target live1288_service__rosidl_typesupport_fastrtps_c__pyext\n'}
+[5.808551] (live1288_service) StdoutLine: {'line': b'[100%] Built target live1288_service__rosidl_typesupport_c__pyext\n'}
+[5.809291] (live1288_service) StdoutLine: {'line': b'[100%] Built target live1288_service__rosidl_typesupport_introspection_c__pyext\n'}
+[5.819146] (live1288_service) CommandEnded: {'returncode': 0}
+[5.820363] (live1288_service) JobProgress: {'identifier': 'live1288_service', 'progress': 'install'}
+[5.828827] (live1288_service) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lisvent/ros2_ws/build/live1288_service'], 'cwd': '/home/lisvent/ros2_ws/build/live1288_service', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lisvent'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lisvent'), ('OLDPWD', '/home/lisvent/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/lisvent/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lisvent'), ('NAME', 'LisaPC'), ('WSL_INTEROP', '/run/WSL/22297_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2025a/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Tailscale/:/mnt/c/Program Files/dotnet/:/mnt/c/Users/lisve/AppData/Local/Programs/Python/Python313/Scripts/:/mnt/c/Users/lisve/AppData/Local/Programs/Python/Python313/:/mnt/c/Users/lisve/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/lisve/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/lisve/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/lisve/.dotnet/tools:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '12'), ('AMENT_PREFIX_PATH', '/home/lisvent/ros2_ws/install/live1288_hw1:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/lisvent/ros2_ws/build/live1288_service'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lisvent/ros2_ws/install/live1288_hw1/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/home/lisvent/ros2_ws/install/live1288_hw1:/opt/ros/humble')]), 'shell': False}
+[5.834923] (live1288_service) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.836013] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/share/ament_index/resource_index/rosidl_interfaces/live1288_service\n'}
+[5.836420] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service\n'}
+[5.836830] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service/srv\n'}
+[5.837025] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service/srv/detail\n'}
+[5.837242] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service/srv/detail/live1288_service__type_support.h\n'}
+[5.837475] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service/srv/detail/live1288_service__functions.c\n'}
+[5.837610] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service/srv/detail/live1288_service__struct.h\n'}
+[5.837662] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service/srv/detail/live1288_service__functions.h\n'}
+[5.837765] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service/srv/live1288_service.h\n'}
+[5.837920] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service/msg\n'}
+[5.838099] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service/msg/rosidl_generator_c__visibility_control.h\n'}
+[5.838447] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/environment/library_path.sh\n'}
+[5.838593] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/environment/library_path.dsv\n'}
+[5.838889] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/lib/liblive1288_service__rosidl_generator_c.so\n'}
+[5.839105] (live1288_service) StdoutLine: {'line': b'-- Set runtime path of "/home/lisvent/ros2_ws/install/live1288_service/lib/liblive1288_service__rosidl_generator_c.so" to ""\n'}
+[5.839226] (live1288_service) StdoutLine: {'line': b'-- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service\n'}
+[5.839429] (live1288_service) StdoutLine: {'line': b'-- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service/srv\n'}
+[5.839727] (live1288_service) StdoutLine: {'line': b'-- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service/srv/detail\n'}
+[5.839849] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service/srv/detail/live1288_service__rosidl_typesupport_fastrtps_c.h\n'}
+[5.839958] (live1288_service) StdoutLine: {'line': b'-- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service/msg\n'}
+[5.840084] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[5.840335] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/lib/liblive1288_service__rosidl_typesupport_fastrtps_c.so\n'}
+[5.840423] (live1288_service) StdoutLine: {'line': b'-- Set runtime path of "/home/lisvent/ros2_ws/install/live1288_service/lib/liblive1288_service__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[5.840535] (live1288_service) StdoutLine: {'line': b'-- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service\n'}
+[5.840614] (live1288_service) StdoutLine: {'line': b'-- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service/srv\n'}
+[5.840762] (live1288_service) StdoutLine: {'line': b'-- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service/srv/detail\n'}
+[5.840852] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service/srv/detail/live1288_service__type_support.c\n'}
+[5.841051] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service/srv/detail/live1288_service__rosidl_typesupport_introspection_c.h\n'}
+[5.841162] (live1288_service) StdoutLine: {'line': b'-- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service/msg\n'}
+[5.841289] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[5.841389] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/lib/liblive1288_service__rosidl_typesupport_introspection_c.so\n'}
+[5.841582] (live1288_service) StdoutLine: {'line': b'-- Set runtime path of "/home/lisvent/ros2_ws/install/live1288_service/lib/liblive1288_service__rosidl_typesupport_introspection_c.so" to ""\n'}
+[5.841762] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/lib/liblive1288_service__rosidl_typesupport_c.so\n'}
+[5.841989] (live1288_service) StdoutLine: {'line': b'-- Set runtime path of "/home/lisvent/ros2_ws/install/live1288_service/lib/liblive1288_service__rosidl_typesupport_c.so" to ""\n'}
+[5.842207] (live1288_service) StdoutLine: {'line': b'-- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service\n'}
+[5.842449] (live1288_service) StdoutLine: {'line': b'-- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service/srv\n'}
+[5.842696] (live1288_service) StdoutLine: {'line': b'-- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service/srv/detail\n'}
+[5.842986] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service/srv/detail/live1288_service__struct.hpp\n'}
+[5.843055] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service/srv/detail/live1288_service__type_support.hpp\n'}
+[5.843151] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service/srv/detail/live1288_service__builder.hpp\n'}
+[5.843253] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service/srv/detail/live1288_service__traits.hpp\n'}
+[5.843362] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service/srv/live1288_service.hpp\n'}
+[5.843529] (live1288_service) StdoutLine: {'line': b'-- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service/msg\n'}
+[5.843658] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[5.843755] (live1288_service) StdoutLine: {'line': b'-- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service\n'}
+[5.843908] (live1288_service) StdoutLine: {'line': b'-- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service/srv\n'}
+[5.843992] (live1288_service) StdoutLine: {'line': b'-- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service/srv/detail\n'}
+[5.844100] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service/srv/detail/dds_fastrtps\n'}
+[5.844268] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service/srv/detail/live1288_service__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.844496] (live1288_service) StdoutLine: {'line': b'-- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service/msg\n'}
+[5.844638] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[5.844757] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/lib/liblive1288_service__rosidl_typesupport_fastrtps_cpp.so\n'}
+[5.844924] (live1288_service) StdoutLine: {'line': b'-- Set runtime path of "/home/lisvent/ros2_ws/install/live1288_service/lib/liblive1288_service__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[5.845037] (live1288_service) StdoutLine: {'line': b'-- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service\n'}
+[5.845190] (live1288_service) StdoutLine: {'line': b'-- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service/srv\n'}
+[5.845389] (live1288_service) StdoutLine: {'line': b'-- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service/srv/detail\n'}
+[5.845546] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service/srv/detail/live1288_service__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.845693] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service/srv/detail/live1288_service__type_support.cpp\n'}
+[5.845852] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/lib/liblive1288_service__rosidl_typesupport_introspection_cpp.so\n'}
+[5.845930] (live1288_service) StdoutLine: {'line': b'-- Set runtime path of "/home/lisvent/ros2_ws/install/live1288_service/lib/liblive1288_service__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[5.846024] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/lib/liblive1288_service__rosidl_typesupport_cpp.so\n'}
+[5.846103] (live1288_service) StdoutLine: {'line': b'-- Set runtime path of "/home/lisvent/ros2_ws/install/live1288_service/lib/liblive1288_service__rosidl_typesupport_cpp.so" to ""\n'}
+[5.846189] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/environment/pythonpath.sh\n'}
+[5.846275] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/environment/pythonpath.dsv\n'}
+[5.846360] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/local/lib/python3.10/dist-packages/live1288_service-0.0.0-py3.10.egg-info\n'}
+[5.846535] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/local/lib/python3.10/dist-packages/live1288_service-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[5.847126] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/local/lib/python3.10/dist-packages/live1288_service-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[5.847229] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/local/lib/python3.10/dist-packages/live1288_service-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[5.847390] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/local/lib/python3.10/dist-packages/live1288_service-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[5.847575] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/local/lib/python3.10/dist-packages/live1288_service\n'}
+[5.847738] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/local/lib/python3.10/dist-packages/live1288_service/live1288_service_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.847880] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/local/lib/python3.10/dist-packages/live1288_service/_live1288_service_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[5.847969] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/local/lib/python3.10/dist-packages/live1288_service/live1288_service_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.848451] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/local/lib/python3.10/dist-packages/live1288_service/_live1288_service_s.ep.rosidl_typesupport_c.c\n'}
+[5.848629] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/local/lib/python3.10/dist-packages/live1288_service/srv\n'}
+[5.848797] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/local/lib/python3.10/dist-packages/live1288_service/srv/_live1288_service.py\n'}
+[5.849055] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/local/lib/python3.10/dist-packages/live1288_service/srv/_live1288_service_s.c\n'}
+[5.849221] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/local/lib/python3.10/dist-packages/live1288_service/srv/__init__.py\n'}
+[5.849296] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/local/lib/python3.10/dist-packages/live1288_service/liblive1288_service__rosidl_generator_py.so\n'}
+[5.849367] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/local/lib/python3.10/dist-packages/live1288_service/_live1288_service_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[5.849446] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/local/lib/python3.10/dist-packages/live1288_service/__init__.py\n'}
+[5.849523] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/local/lib/python3.10/dist-packages/live1288_service/live1288_service_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.879495] (live1288_service) StdoutLine: {'line': b"Listing '/home/lisvent/ros2_ws/install/live1288_service/local/lib/python3.10/dist-packages/live1288_service'...\n"}
+[5.879666] (live1288_service) StdoutLine: {'line': b"Compiling '/home/lisvent/ros2_ws/install/live1288_service/local/lib/python3.10/dist-packages/live1288_service/__init__.py'...\n"}
+[5.879736] (live1288_service) StdoutLine: {'line': b"Listing '/home/lisvent/ros2_ws/install/live1288_service/local/lib/python3.10/dist-packages/live1288_service/srv'...\n"}
+[5.879799] (live1288_service) StdoutLine: {'line': b"Compiling '/home/lisvent/ros2_ws/install/live1288_service/local/lib/python3.10/dist-packages/live1288_service/srv/__init__.py'...\n"}
+[5.879864] (live1288_service) StdoutLine: {'line': b"Compiling '/home/lisvent/ros2_ws/install/live1288_service/local/lib/python3.10/dist-packages/live1288_service/srv/_live1288_service.py'...\n"}
+[5.884603] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/local/lib/python3.10/dist-packages/live1288_service/live1288_service_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.885031] (live1288_service) StdoutLine: {'line': b'-- Set runtime path of "/home/lisvent/ros2_ws/install/live1288_service/local/lib/python3.10/dist-packages/live1288_service/live1288_service_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[5.885823] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/local/lib/python3.10/dist-packages/live1288_service/live1288_service_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.886442] (live1288_service) StdoutLine: {'line': b'-- Set runtime path of "/home/lisvent/ros2_ws/install/live1288_service/local/lib/python3.10/dist-packages/live1288_service/live1288_service_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[5.886639] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/local/lib/python3.10/dist-packages/live1288_service/live1288_service_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.887223] (live1288_service) StdoutLine: {'line': b'-- Set runtime path of "/home/lisvent/ros2_ws/install/live1288_service/local/lib/python3.10/dist-packages/live1288_service/live1288_service_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[5.887515] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/lib/liblive1288_service__rosidl_generator_py.so\n'}
+[5.887889] (live1288_service) StdoutLine: {'line': b'-- Set runtime path of "/home/lisvent/ros2_ws/install/live1288_service/lib/liblive1288_service__rosidl_generator_py.so" to ""\n'}
+[5.889584] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/srv/Live1288Service.idl\n'}
+[5.889772] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/srv/Live1288Service.srv\n'}
+[5.890518] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/srv/Live1288Service_Request.msg\n'}
+[5.890729] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/srv/Live1288Service_Response.msg\n'}
+[5.892504] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/share/ament_index/resource_index/package_run_dependencies/live1288_service\n'}
+[5.893686] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/share/ament_index/resource_index/parent_prefix_path/live1288_service\n'}
+[5.894145] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/environment/ament_prefix_path.sh\n'}
+[5.895425] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/environment/ament_prefix_path.dsv\n'}
+[5.895806] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/environment/path.sh\n'}
+[5.896137] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/environment/path.dsv\n'}
+[5.896515] (-) TimerEvent: {}
+[5.896860] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/local_setup.bash\n'}
+[5.896955] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/local_setup.sh\n'}
+[5.897268] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/local_setup.zsh\n'}
+[5.897412] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/local_setup.dsv\n'}
+[5.897493] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/package.dsv\n'}
+[5.897584] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/share/ament_index/resource_index/packages/live1288_service\n'}
+[5.898829] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/cmake/export_live1288_service__rosidl_generator_cExport.cmake\n'}
+[5.899097] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/cmake/export_live1288_service__rosidl_generator_cExport-noconfig.cmake\n'}
+[5.899454] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/cmake/export_live1288_service__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[5.900311] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/cmake/export_live1288_service__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[5.900443] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/cmake/live1288_service__rosidl_typesupport_introspection_cExport.cmake\n'}
+[5.900788] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/cmake/live1288_service__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[5.901166] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/cmake/live1288_service__rosidl_typesupport_cExport.cmake\n'}
+[5.901468] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/cmake/live1288_service__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[5.901584] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/cmake/export_live1288_service__rosidl_generator_cppExport.cmake\n'}
+[5.901744] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/cmake/export_live1288_service__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[5.901913] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/cmake/export_live1288_service__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[5.902079] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/cmake/live1288_service__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[5.902270] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/cmake/live1288_service__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[5.902540] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/cmake/live1288_service__rosidl_typesupport_cppExport.cmake\n'}
+[5.902647] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/cmake/live1288_service__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[5.902755] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/cmake/export_live1288_service__rosidl_generator_pyExport.cmake\n'}
+[5.902912] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/cmake/export_live1288_service__rosidl_generator_pyExport-noconfig.cmake\n'}
+[5.903082] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/cmake/rosidl_cmake-extras.cmake\n'}
+[5.903211] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.903319] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[5.903709] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[5.903897] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[5.904192] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[5.904378] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[5.904615] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/cmake/live1288_serviceConfig.cmake\n'}
+[5.904759] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/cmake/live1288_serviceConfig-version.cmake\n'}
+[5.904934] (live1288_service) StdoutLine: {'line': b'-- Installing: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/package.xml\n'}
+[5.907803] (live1288_service) CommandEnded: {'returncode': 0}
+[5.933094] (live1288_service) JobEnded: {'identifier': 'live1288_service', 'rc': 0}
+[5.934044] (live1288_hw1) JobStarted: {'identifier': 'live1288_hw1'}
+[5.997453] (-) TimerEvent: {}
+[6.101621] (-) TimerEvent: {}
+[6.205764] (-) TimerEvent: {}
+[6.306188] (-) TimerEvent: {}
+[6.410429] (-) TimerEvent: {}
+[6.514726] (-) TimerEvent: {}
+[6.618891] (-) TimerEvent: {}
+[6.689123] (live1288_hw1) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/live1288_hw1', 'build', '--build-base', '/home/lisvent/ros2_ws/build/live1288_hw1/build', 'install', '--record', '/home/lisvent/ros2_ws/build/live1288_hw1/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/lisvent/ros2_ws/src/live1288_hw1', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'lisvent', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/lisvent/ros2_ws/install/live1288_service/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/lisvent', 'OLDPWD': '/home/lisvent/ros2_ws', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/lisvent/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'lisvent', 'NAME': 'LisaPC', 'WSL_INTEROP': '/run/WSL/22297_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2025a/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Tailscale/:/mnt/c/Program Files/dotnet/:/mnt/c/Users/lisve/AppData/Local/Programs/Python/Python313/Scripts/:/mnt/c/Users/lisve/AppData/Local/Programs/Python/Python313/:/mnt/c/Users/lisve/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/lisve/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/lisve/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/lisve/.dotnet/tools:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '12', 'AMENT_PREFIX_PATH': '/home/lisvent/ros2_ws/install/live1288_service:/home/lisvent/ros2_ws/install/live1288_hw1:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/lisvent/ros2_ws/build/live1288_hw1', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/lisvent/ros2_ws/build/live1288_hw1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lisvent/ros2_ws/install/live1288_hw1/lib/python3.10/site-packages:/home/lisvent/ros2_ws/install/live1288_service/local/lib/python3.10/dist-packages:/home/lisvent/ros2_ws/install/live1288_hw1/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': '', 'CMAKE_PREFIX_PATH': '/home/lisvent/ros2_ws/install/live1288_service'}, 'shell': False}
+[6.719385] (-) TimerEvent: {}
+[6.820135] (-) TimerEvent: {}
+[6.839418] (live1288_hw1) StdoutLine: {'line': b'running egg_info\n'}
+[6.839818] (live1288_hw1) StdoutLine: {'line': b'creating ../../build/live1288_hw1/live1288_hw1.egg-info\n'}
+[6.840085] (live1288_hw1) StdoutLine: {'line': b'writing ../../build/live1288_hw1/live1288_hw1.egg-info/PKG-INFO\n'}
+[6.840372] (live1288_hw1) StdoutLine: {'line': b'writing dependency_links to ../../build/live1288_hw1/live1288_hw1.egg-info/dependency_links.txt\n'}
+[6.840477] (live1288_hw1) StdoutLine: {'line': b'writing entry points to ../../build/live1288_hw1/live1288_hw1.egg-info/entry_points.txt\n'}
+[6.840690] (live1288_hw1) StdoutLine: {'line': b'writing requirements to ../../build/live1288_hw1/live1288_hw1.egg-info/requires.txt\n'}
+[6.840887] (live1288_hw1) StdoutLine: {'line': b'writing top-level names to ../../build/live1288_hw1/live1288_hw1.egg-info/top_level.txt\n'}
+[6.841118] (live1288_hw1) StdoutLine: {'line': b"writing manifest file '../../build/live1288_hw1/live1288_hw1.egg-info/SOURCES.txt'\n"}
+[6.854096] (live1288_hw1) StdoutLine: {'line': b"reading manifest file '../../build/live1288_hw1/live1288_hw1.egg-info/SOURCES.txt'\n"}
+[6.854294] (live1288_hw1) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[6.854493] (live1288_hw1) StdoutLine: {'line': b"writing manifest file '../../build/live1288_hw1/live1288_hw1.egg-info/SOURCES.txt'\n"}
+[6.854592] (live1288_hw1) StdoutLine: {'line': b'running build\n'}
+[6.854648] (live1288_hw1) StdoutLine: {'line': b'running build_py\n'}
+[6.854885] (live1288_hw1) StdoutLine: {'line': b'creating /home/lisvent/ros2_ws/build/live1288_hw1/build\n'}
+[6.855242] (live1288_hw1) StdoutLine: {'line': b'creating /home/lisvent/ros2_ws/build/live1288_hw1/build/lib\n'}
+[6.855511] (live1288_hw1) StdoutLine: {'line': b'creating /home/lisvent/ros2_ws/build/live1288_hw1/build/lib/live1288_hw1\n'}
+[6.855796] (live1288_hw1) StdoutLine: {'line': b'copying live1288_hw1/service_server.py -> /home/lisvent/ros2_ws/build/live1288_hw1/build/lib/live1288_hw1\n'}
+[6.856385] (live1288_hw1) StdoutLine: {'line': b'copying live1288_hw1/service_client.py -> /home/lisvent/ros2_ws/build/live1288_hw1/build/lib/live1288_hw1\n'}
+[6.856757] (live1288_hw1) StdoutLine: {'line': b'copying live1288_hw1/__init__.py -> /home/lisvent/ros2_ws/build/live1288_hw1/build/lib/live1288_hw1\n'}
+[6.856996] (live1288_hw1) StdoutLine: {'line': b'running install\n'}
+[6.857353] (live1288_hw1) StdoutLine: {'line': b'running install_lib\n'}
+[6.858901] (live1288_hw1) StdoutLine: {'line': b'creating /home/lisvent/ros2_ws/install/live1288_hw1/lib/python3.10/site-packages/live1288_hw1\n'}
+[6.859459] (live1288_hw1) StdoutLine: {'line': b'copying /home/lisvent/ros2_ws/build/live1288_hw1/build/lib/live1288_hw1/service_server.py -> /home/lisvent/ros2_ws/install/live1288_hw1/lib/python3.10/site-packages/live1288_hw1\n'}
+[6.859767] (live1288_hw1) StdoutLine: {'line': b'copying /home/lisvent/ros2_ws/build/live1288_hw1/build/lib/live1288_hw1/service_client.py -> /home/lisvent/ros2_ws/install/live1288_hw1/lib/python3.10/site-packages/live1288_hw1\n'}
+[6.859883] (live1288_hw1) StdoutLine: {'line': b'copying /home/lisvent/ros2_ws/build/live1288_hw1/build/lib/live1288_hw1/__init__.py -> /home/lisvent/ros2_ws/install/live1288_hw1/lib/python3.10/site-packages/live1288_hw1\n'}
+[6.860501] (live1288_hw1) StdoutLine: {'line': b'byte-compiling /home/lisvent/ros2_ws/install/live1288_hw1/lib/python3.10/site-packages/live1288_hw1/service_server.py to service_server.cpython-310.pyc\n'}
+[6.861629] (live1288_hw1) StdoutLine: {'line': b'byte-compiling /home/lisvent/ros2_ws/install/live1288_hw1/lib/python3.10/site-packages/live1288_hw1/service_client.py to service_client.cpython-310.pyc\n'}
+[6.862269] (live1288_hw1) StdoutLine: {'line': b'byte-compiling /home/lisvent/ros2_ws/install/live1288_hw1/lib/python3.10/site-packages/live1288_hw1/__init__.py to __init__.cpython-310.pyc\n'}
+[6.862634] (live1288_hw1) StdoutLine: {'line': b'running install_data\n'}
+[6.862744] (live1288_hw1) StdoutLine: {'line': b'creating /home/lisvent/ros2_ws/install/live1288_hw1/share/ament_index\n'}
+[6.862988] (live1288_hw1) StdoutLine: {'line': b'creating /home/lisvent/ros2_ws/install/live1288_hw1/share/ament_index/resource_index\n'}
+[6.863408] (live1288_hw1) StdoutLine: {'line': b'creating /home/lisvent/ros2_ws/install/live1288_hw1/share/ament_index/resource_index/packages\n'}
+[6.863740] (live1288_hw1) StdoutLine: {'line': b'copying resource/live1288_hw1 -> /home/lisvent/ros2_ws/install/live1288_hw1/share/ament_index/resource_index/packages\n'}
+[6.863894] (live1288_hw1) StdoutLine: {'line': b'copying package.xml -> /home/lisvent/ros2_ws/install/live1288_hw1/share/live1288_hw1\n'}
+[6.864026] (live1288_hw1) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.866332] (live1288_hw1) StdoutLine: {'line': b'Copying ../../build/live1288_hw1/live1288_hw1.egg-info to /home/lisvent/ros2_ws/install/live1288_hw1/lib/python3.10/site-packages/live1288_hw1-0.0.0-py3.10.egg-info\n'}
+[6.867297] (live1288_hw1) StdoutLine: {'line': b'running install_scripts\n'}
+[6.882417] (live1288_hw1) StdoutLine: {'line': b'Installing service_client script to /home/lisvent/ros2_ws/install/live1288_hw1/lib/live1288_hw1\n'}
+[6.882770] (live1288_hw1) StdoutLine: {'line': b'Installing service_server script to /home/lisvent/ros2_ws/install/live1288_hw1/lib/live1288_hw1\n'}
+[6.883001] (live1288_hw1) StdoutLine: {'line': b"writing list of installed files to '/home/lisvent/ros2_ws/build/live1288_hw1/install.log'\n"}
+[6.901280] (live1288_hw1) CommandEnded: {'returncode': 0}
+[6.905420] (live1288_hw1) JobEnded: {'identifier': 'live1288_hw1', 'rc': 0}
+[6.906227] (-) EventReactorShutdown: {}

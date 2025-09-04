@@ -1,0 +1,4 @@
+[console_scripts]
+service_client = live1288_hw1.service_client:main
+service_server = live1288_hw1.service_server:main
+

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "live1288_service__py",
+		"source" : "/home/lisvent/ros2_ws/build/live1288_service/live1288_service__py"
+	}
+}

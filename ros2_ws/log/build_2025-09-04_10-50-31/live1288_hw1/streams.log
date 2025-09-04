@@ -1,0 +1,25 @@
+[1.243s] Invoking command in '/home/lisvent/ros2_ws/src/live1288_hw1': PYTHONPATH=/home/lisvent/ros2_ws/build/live1288_hw1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lisvent/ros2_ws/install/live1288_hw1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/live1288_hw1 build --build-base /home/lisvent/ros2_ws/build/live1288_hw1/build install --record /home/lisvent/ros2_ws/build/live1288_hw1/install.log --single-version-externally-managed install_data
+[1.550s] running egg_info
+[1.551s] writing ../../build/live1288_hw1/live1288_hw1.egg-info/PKG-INFO
+[1.551s] writing dependency_links to ../../build/live1288_hw1/live1288_hw1.egg-info/dependency_links.txt
+[1.552s] writing entry points to ../../build/live1288_hw1/live1288_hw1.egg-info/entry_points.txt
+[1.552s] writing requirements to ../../build/live1288_hw1/live1288_hw1.egg-info/requires.txt
+[1.552s] writing top-level names to ../../build/live1288_hw1/live1288_hw1.egg-info/top_level.txt
+[1.555s] reading manifest file '../../build/live1288_hw1/live1288_hw1.egg-info/SOURCES.txt'
+[1.555s] adding license file 'LICENSE'
+[1.556s] writing manifest file '../../build/live1288_hw1/live1288_hw1.egg-info/SOURCES.txt'
+[1.556s] running build
+[1.556s] running build_py
+[1.557s] running install
+[1.557s] running install_lib
+[1.559s] running install_data
+[1.560s] running install_egg_info
+[1.564s] removing '/home/lisvent/ros2_ws/install/live1288_hw1/lib/python3.10/site-packages/live1288_hw1-0.0.0-py3.10.egg-info' (and everything under it)
+[1.565s] Copying ../../build/live1288_hw1/live1288_hw1.egg-info to /home/lisvent/ros2_ws/install/live1288_hw1/lib/python3.10/site-packages/live1288_hw1-0.0.0-py3.10.egg-info
+[1.567s] running install_scripts
+[1.602s] Installing publisher script to /home/lisvent/ros2_ws/install/live1288_hw1/lib/live1288_hw1
+[1.602s] Installing service_client script to /home/lisvent/ros2_ws/install/live1288_hw1/lib/live1288_hw1
+[1.603s] Installing service_server script to /home/lisvent/ros2_ws/install/live1288_hw1/lib/live1288_hw1
+[1.603s] Installing subscriber script to /home/lisvent/ros2_ws/install/live1288_hw1/lib/live1288_hw1
+[1.603s] writing list of installed files to '/home/lisvent/ros2_ws/build/live1288_hw1/install.log'
+[1.644s] Invoked command in '/home/lisvent/ros2_ws/src/live1288_hw1' returned '0': PYTHONPATH=/home/lisvent/ros2_ws/build/live1288_hw1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lisvent/ros2_ws/install/live1288_hw1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/live1288_hw1 build --build-base /home/lisvent/ros2_ws/build/live1288_hw1/build install --record /home/lisvent/ros2_ws/build/live1288_hw1/install.log --single-version-externally-managed install_data

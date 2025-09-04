@@ -1,0 +1,5 @@
+  File "/home/lisvent/ros2_ws/src/live1288_hw1/install/live1288_hw1/lib/python3.10/site-packages/live1288_hw1/service_client.py", line 3
+    from live1288_hw1.srv import Live1288-service
+                                         ^
+SyntaxError: invalid syntax
+

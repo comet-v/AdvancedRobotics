@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-b56617f4da58c2c48b8c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "live1288_service__py",
+					"jsonFile" : "directory-live1288_service__py-c1a579407f9f6d532b81.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/lisvent/ros2_ws/build/live1288_service/live1288_service__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "live1288_service",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_live1288_service_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_live1288_service_egg-a3653c65c49513598acc.json",
+					"name" : "ament_cmake_python_build_live1288_service_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_live1288_service::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_live1288_service-3df72853649c09861234.json",
+					"name" : "ament_cmake_python_copy_live1288_service",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "live1288_service::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-live1288_service-42c852f6d6af3cd4214e.json",
+					"name" : "live1288_service",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "live1288_service__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-live1288_service__cpp-169e7e1846464153712c.json",
+					"name" : "live1288_service__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "live1288_service__py::@ce614678e495a976ae34",
+					"jsonFile" : "target-live1288_service__py-eae33923347339334a7e.json",
+					"name" : "live1288_service__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "live1288_service__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-live1288_service__rosidl_generator_c-37943401a9736d1b260d.json",
+					"name" : "live1288_service__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "live1288_service__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-live1288_service__rosidl_generator_py-2e670678d1601d82732c.json",
+					"name" : "live1288_service__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "live1288_service__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-live1288_service__rosidl_typesupport_c-8f91bde4825dff5d3b48.json",
+					"name" : "live1288_service__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "live1288_service__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-live1288_service__rosidl_typesupport_c__pyext-3792edbde51d75802635.json",
+					"name" : "live1288_service__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "live1288_service__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-live1288_service__rosidl_typesupport_cpp-f5d63467ad5b307411ba.json",
+					"name" : "live1288_service__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "live1288_service__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-live1288_service__rosidl_typesupport_fastrtps_c-11c4611ff38d7c748688.json",
+					"name" : "live1288_service__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "live1288_service__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-live1288_service__rosidl_typesupport_fastrtps_c__pyext-3f7f24bb6daa3122e741.json",
+					"name" : "live1288_service__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "live1288_service__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-live1288_service__rosidl_typesupport_fastrtps_cpp-ac7216872bde461bd178.json",
+					"name" : "live1288_service__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "live1288_service__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-live1288_service__rosidl_typesupport_introspection_c-2fbaa99e0b5ed2bd80d4.json",
+					"name" : "live1288_service__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "live1288_service__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-live1288_service__rosidl_typesupport_introspection_c__pyext-15caa21366c1e87417da.json",
+					"name" : "live1288_service__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "live1288_service__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-live1288_service__rosidl_typesupport_introspection_cpp-47b47699ad494adfe2bb.json",
+					"name" : "live1288_service__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "live1288_service_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-live1288_service_uninstall-1a4c2a1545e9bce3ef5c.json",
+					"name" : "live1288_service_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-0819ab4bb7cf560ee689.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/lisvent/ros2_ws/build/live1288_service",
+		"source" : "/home/lisvent/ros2_ws/src/live1288_service"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

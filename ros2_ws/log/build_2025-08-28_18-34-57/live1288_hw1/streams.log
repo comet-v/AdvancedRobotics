@@ -1,0 +1,42 @@
+[0.756s] Invoking command in '/home/lisvent/ros2_ws/src/live1288_hw1': AMENT_PREFIX_PATH=/home/lisvent/ros2_ws/install/live1288_service:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lisvent/ros2_ws/install/live1288_service LD_LIBRARY_PATH=/home/lisvent/ros2_ws/install/live1288_service/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lisvent/ros2_ws/build/live1288_hw1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lisvent/ros2_ws/install/live1288_hw1/lib/python3.10/site-packages:/home/lisvent/ros2_ws/install/live1288_service/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/live1288_hw1 build --build-base /home/lisvent/ros2_ws/build/live1288_hw1/build install --record /home/lisvent/ros2_ws/build/live1288_hw1/install.log --single-version-externally-managed install_data
+[0.905s] running egg_info
+[0.906s] creating ../../build/live1288_hw1/live1288_hw1.egg-info
+[0.906s] writing ../../build/live1288_hw1/live1288_hw1.egg-info/PKG-INFO
+[0.906s] writing dependency_links to ../../build/live1288_hw1/live1288_hw1.egg-info/dependency_links.txt
+[0.906s] writing entry points to ../../build/live1288_hw1/live1288_hw1.egg-info/entry_points.txt
+[0.907s] writing requirements to ../../build/live1288_hw1/live1288_hw1.egg-info/requires.txt
+[0.907s] writing top-level names to ../../build/live1288_hw1/live1288_hw1.egg-info/top_level.txt
+[0.907s] writing manifest file '../../build/live1288_hw1/live1288_hw1.egg-info/SOURCES.txt'
+[0.920s] reading manifest file '../../build/live1288_hw1/live1288_hw1.egg-info/SOURCES.txt'
+[0.920s] adding license file 'LICENSE'
+[0.920s] writing manifest file '../../build/live1288_hw1/live1288_hw1.egg-info/SOURCES.txt'
+[0.921s] running build
+[0.921s] running build_py
+[0.921s] creating /home/lisvent/ros2_ws/build/live1288_hw1/build
+[0.921s] creating /home/lisvent/ros2_ws/build/live1288_hw1/build/lib
+[0.922s] creating /home/lisvent/ros2_ws/build/live1288_hw1/build/lib/live1288_hw1
+[0.922s] copying live1288_hw1/service_server.py -> /home/lisvent/ros2_ws/build/live1288_hw1/build/lib/live1288_hw1
+[0.922s] copying live1288_hw1/service_client.py -> /home/lisvent/ros2_ws/build/live1288_hw1/build/lib/live1288_hw1
+[0.923s] copying live1288_hw1/__init__.py -> /home/lisvent/ros2_ws/build/live1288_hw1/build/lib/live1288_hw1
+[0.923s] running install
+[0.923s] running install_lib
+[0.925s] creating /home/lisvent/ros2_ws/install/live1288_hw1/lib/python3.10/site-packages/live1288_hw1
+[0.925s] copying /home/lisvent/ros2_ws/build/live1288_hw1/build/lib/live1288_hw1/service_server.py -> /home/lisvent/ros2_ws/install/live1288_hw1/lib/python3.10/site-packages/live1288_hw1
+[0.926s] copying /home/lisvent/ros2_ws/build/live1288_hw1/build/lib/live1288_hw1/service_client.py -> /home/lisvent/ros2_ws/install/live1288_hw1/lib/python3.10/site-packages/live1288_hw1
+[0.926s] copying /home/lisvent/ros2_ws/build/live1288_hw1/build/lib/live1288_hw1/__init__.py -> /home/lisvent/ros2_ws/install/live1288_hw1/lib/python3.10/site-packages/live1288_hw1
+[0.926s] byte-compiling /home/lisvent/ros2_ws/install/live1288_hw1/lib/python3.10/site-packages/live1288_hw1/service_server.py to service_server.cpython-310.pyc
+[0.928s] byte-compiling /home/lisvent/ros2_ws/install/live1288_hw1/lib/python3.10/site-packages/live1288_hw1/service_client.py to service_client.cpython-310.pyc
+[0.928s] byte-compiling /home/lisvent/ros2_ws/install/live1288_hw1/lib/python3.10/site-packages/live1288_hw1/__init__.py to __init__.cpython-310.pyc
+[0.929s] running install_data
+[0.929s] creating /home/lisvent/ros2_ws/install/live1288_hw1/share/ament_index
+[0.929s] creating /home/lisvent/ros2_ws/install/live1288_hw1/share/ament_index/resource_index
+[0.929s] creating /home/lisvent/ros2_ws/install/live1288_hw1/share/ament_index/resource_index/packages
+[0.930s] copying resource/live1288_hw1 -> /home/lisvent/ros2_ws/install/live1288_hw1/share/ament_index/resource_index/packages
+[0.930s] copying package.xml -> /home/lisvent/ros2_ws/install/live1288_hw1/share/live1288_hw1
+[0.930s] running install_egg_info
+[0.932s] Copying ../../build/live1288_hw1/live1288_hw1.egg-info to /home/lisvent/ros2_ws/install/live1288_hw1/lib/python3.10/site-packages/live1288_hw1-0.0.0-py3.10.egg-info
+[0.933s] running install_scripts
+[0.949s] Installing service_client script to /home/lisvent/ros2_ws/install/live1288_hw1/lib/live1288_hw1
+[0.949s] Installing service_server script to /home/lisvent/ros2_ws/install/live1288_hw1/lib/live1288_hw1
+[0.949s] writing list of installed files to '/home/lisvent/ros2_ws/build/live1288_hw1/install.log'
+[0.967s] Invoked command in '/home/lisvent/ros2_ws/src/live1288_hw1' returned '0': AMENT_PREFIX_PATH=/home/lisvent/ros2_ws/install/live1288_service:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lisvent/ros2_ws/install/live1288_service LD_LIBRARY_PATH=/home/lisvent/ros2_ws/install/live1288_service/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lisvent/ros2_ws/build/live1288_hw1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lisvent/ros2_ws/install/live1288_hw1/lib/python3.10/site-packages:/home/lisvent/ros2_ws/install/live1288_service/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/live1288_hw1 build --build-base /home/lisvent/ros2_ws/build/live1288_hw1/build install --record /home/lisvent/ros2_ws/build/live1288_hw1/install.log --single-version-externally-managed install_data

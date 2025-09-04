@@ -1,0 +1,5 @@
+  File "/home/lisvent/ros2_ws/install/live1288_hw1/lib/python3.10/site-packages/live1288_hw1/service_client.py", line 29
+    	print "requesting " + i
+    	^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(...)?
+

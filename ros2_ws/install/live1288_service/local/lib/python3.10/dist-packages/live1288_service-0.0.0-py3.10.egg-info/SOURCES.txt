@@ -1,0 +1,8 @@
+setup.py
+live1288_service/__init__.py
+live1288_service.egg-info/PKG-INFO
+live1288_service.egg-info/SOURCES.txt
+live1288_service.egg-info/dependency_links.txt
+live1288_service.egg-info/top_level.txt
+live1288_service/srv/__init__.py
+live1288_service/srv/_live1288_service.py

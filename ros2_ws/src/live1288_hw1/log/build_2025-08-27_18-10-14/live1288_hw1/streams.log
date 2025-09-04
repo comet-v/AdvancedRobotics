@@ -1,0 +1,29 @@
+[1.097s] Invoking command in '/home/lisvent/ros2_ws/src/live1288_hw1': PYTHONPATH=/home/lisvent/ros2_ws/src/live1288_hw1/build/live1288_hw1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lisvent/ros2_ws/src/live1288_hw1/install/live1288_hw1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/live1288_hw1 build --build-base /home/lisvent/ros2_ws/src/live1288_hw1/build/live1288_hw1/build install --record /home/lisvent/ros2_ws/src/live1288_hw1/build/live1288_hw1/install.log --single-version-externally-managed install_data
+[1.401s] running egg_info
+[1.401s] writing build/live1288_hw1/live1288_hw1.egg-info/PKG-INFO
+[1.402s] writing dependency_links to build/live1288_hw1/live1288_hw1.egg-info/dependency_links.txt
+[1.402s] writing entry points to build/live1288_hw1/live1288_hw1.egg-info/entry_points.txt
+[1.402s] writing requirements to build/live1288_hw1/live1288_hw1.egg-info/requires.txt
+[1.402s] writing top-level names to build/live1288_hw1/live1288_hw1.egg-info/top_level.txt
+[1.416s] reading manifest file 'build/live1288_hw1/live1288_hw1.egg-info/SOURCES.txt'
+[1.417s] adding license file 'LICENSE'
+[1.418s] writing manifest file 'build/live1288_hw1/live1288_hw1.egg-info/SOURCES.txt'
+[1.418s] running build
+[1.418s] running build_py
+[1.418s] copying live1288_hw1/service_server.py -> /home/lisvent/ros2_ws/src/live1288_hw1/build/live1288_hw1/build/lib/live1288_hw1
+[1.419s] copying live1288_hw1/service_client.py -> /home/lisvent/ros2_ws/src/live1288_hw1/build/live1288_hw1/build/lib/live1288_hw1
+[1.419s] running install
+[1.420s] running install_lib
+[1.421s] copying /home/lisvent/ros2_ws/src/live1288_hw1/build/live1288_hw1/build/lib/live1288_hw1/service_server.py -> /home/lisvent/ros2_ws/src/live1288_hw1/install/live1288_hw1/lib/python3.10/site-packages/live1288_hw1
+[1.422s] copying /home/lisvent/ros2_ws/src/live1288_hw1/build/live1288_hw1/build/lib/live1288_hw1/service_client.py -> /home/lisvent/ros2_ws/src/live1288_hw1/install/live1288_hw1/lib/python3.10/site-packages/live1288_hw1
+[1.423s] byte-compiling /home/lisvent/ros2_ws/src/live1288_hw1/install/live1288_hw1/lib/python3.10/site-packages/live1288_hw1/service_server.py to service_server.cpython-310.pyc
+[1.424s] byte-compiling /home/lisvent/ros2_ws/src/live1288_hw1/install/live1288_hw1/lib/python3.10/site-packages/live1288_hw1/service_client.py to service_client.cpython-310.pyc
+[1.425s] running install_data
+[1.425s] running install_egg_info
+[1.428s] removing '/home/lisvent/ros2_ws/src/live1288_hw1/install/live1288_hw1/lib/python3.10/site-packages/live1288_hw1-0.0.0-py3.10.egg-info' (and everything under it)
+[1.428s] Copying build/live1288_hw1/live1288_hw1.egg-info to /home/lisvent/ros2_ws/src/live1288_hw1/install/live1288_hw1/lib/python3.10/site-packages/live1288_hw1-0.0.0-py3.10.egg-info
+[1.432s] running install_scripts
+[1.459s] Installing service_client script to /home/lisvent/ros2_ws/src/live1288_hw1/install/live1288_hw1/lib/live1288_hw1
+[1.459s] Installing service_server script to /home/lisvent/ros2_ws/src/live1288_hw1/install/live1288_hw1/lib/live1288_hw1
+[1.460s] writing list of installed files to '/home/lisvent/ros2_ws/src/live1288_hw1/build/live1288_hw1/install.log'
+[1.491s] Invoked command in '/home/lisvent/ros2_ws/src/live1288_hw1' returned '0': PYTHONPATH=/home/lisvent/ros2_ws/src/live1288_hw1/build/live1288_hw1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lisvent/ros2_ws/src/live1288_hw1/install/live1288_hw1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/live1288_hw1 build --build-base /home/lisvent/ros2_ws/src/live1288_hw1/build/live1288_hw1/build install --record /home/lisvent/ros2_ws/src/live1288_hw1/build/live1288_hw1/install.log --single-version-externally-managed install_data

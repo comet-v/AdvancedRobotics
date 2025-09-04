@@ -1,0 +1,6 @@
+[console_scripts]
+publisher = live1288_hw1.publisher:main
+service_client = live1288_hw1.service_client:main
+service_server = live1288_hw1.service_server:main
+subscriber = live1288_hw1.subscriber:main
+

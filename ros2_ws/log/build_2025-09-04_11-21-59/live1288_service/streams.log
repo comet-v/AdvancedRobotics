@@ -1,0 +1,151 @@
+[0.014s] Invoking command in '/home/lisvent/ros2_ws/build/live1288_service': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lisvent/ros2_ws/install/live1288_hw1:/opt/ros/humble /usr/bin/cmake --build /home/lisvent/ros2_ws/build/live1288_service -- -j8 -l8
+[0.087s] [  6%] Built target live1288_service__cpp
+[0.088s] [ 12%] Built target live1288_service__rosidl_generator_c
+[0.101s] [ 12%] Built target ament_cmake_python_copy_live1288_service
+[0.123s] [ 22%] Built target live1288_service__rosidl_typesupport_cpp
+[0.131s] [ 32%] Built target live1288_service__rosidl_typesupport_fastrtps_cpp
+[0.131s] [ 41%] Built target live1288_service__rosidl_typesupport_introspection_cpp
+[0.139s] [ 51%] Built target live1288_service__rosidl_typesupport_introspection_c
+[0.140s] [ 61%] Built target live1288_service__rosidl_typesupport_c
+[0.141s] [ 70%] Built target live1288_service__rosidl_typesupport_fastrtps_c
+[0.170s] [ 70%] Built target live1288_service
+[0.198s] [ 74%] Built target live1288_service__py
+[0.228s] [ 80%] Built target live1288_service__rosidl_generator_py
+[0.260s] [ 90%] Built target live1288_service__rosidl_typesupport_introspection_c__pyext
+[0.261s] [100%] Built target live1288_service__rosidl_typesupport_fastrtps_c__pyext
+[0.261s] [100%] Built target live1288_service__rosidl_typesupport_c__pyext
+[0.417s] running egg_info
+[0.418s] writing live1288_service.egg-info/PKG-INFO
+[0.418s] writing dependency_links to live1288_service.egg-info/dependency_links.txt
+[0.418s] writing top-level names to live1288_service.egg-info/top_level.txt
+[0.420s] reading manifest file 'live1288_service.egg-info/SOURCES.txt'
+[0.421s] writing manifest file 'live1288_service.egg-info/SOURCES.txt'
+[0.462s] [100%] Built target ament_cmake_python_build_live1288_service_egg
+[0.486s] Invoked command in '/home/lisvent/ros2_ws/build/live1288_service' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lisvent/ros2_ws/install/live1288_hw1:/opt/ros/humble /usr/bin/cmake --build /home/lisvent/ros2_ws/build/live1288_service -- -j8 -l8
+[0.510s] Invoking command in '/home/lisvent/ros2_ws/build/live1288_service': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lisvent/ros2_ws/install/live1288_hw1:/opt/ros/humble /usr/bin/cmake --install /home/lisvent/ros2_ws/build/live1288_service
+[0.528s] -- Install configuration: ""
+[0.528s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/share/ament_index/resource_index/rosidl_interfaces/live1288_service
+[0.528s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service
+[0.528s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service/srv
+[0.529s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service/srv/detail
+[0.529s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service/srv/detail/live1288_service__type_support.h
+[0.529s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service/srv/detail/live1288_service__functions.c
+[0.529s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service/srv/detail/live1288_service__struct.h
+[0.529s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service/srv/detail/live1288_service__functions.h
+[0.530s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service/srv/live1288_service.h
+[0.530s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service/msg
+[0.530s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service/msg/rosidl_generator_c__visibility_control.h
+[0.530s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/environment/library_path.sh
+[0.530s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/environment/library_path.dsv
+[0.530s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/lib/liblive1288_service__rosidl_generator_c.so
+[0.531s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service
+[0.531s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service/srv
+[0.531s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service/srv/detail
+[0.531s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service/srv/detail/live1288_service__rosidl_typesupport_fastrtps_c.h
+[0.531s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service/msg
+[0.532s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.532s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/lib/liblive1288_service__rosidl_typesupport_fastrtps_c.so
+[0.532s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service
+[0.532s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service/srv
+[0.532s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service/srv/detail
+[0.533s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service/srv/detail/live1288_service__type_support.c
+[0.533s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service/srv/detail/live1288_service__rosidl_typesupport_introspection_c.h
+[0.533s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service/msg
+[0.533s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.533s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/lib/liblive1288_service__rosidl_typesupport_introspection_c.so
+[0.534s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/lib/liblive1288_service__rosidl_typesupport_c.so
+[0.534s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service
+[0.534s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service/srv
+[0.534s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service/srv/detail
+[0.534s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service/srv/detail/live1288_service__struct.hpp
+[0.534s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service/srv/detail/live1288_service__type_support.hpp
+[0.535s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service/srv/detail/live1288_service__builder.hpp
+[0.535s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service/srv/detail/live1288_service__traits.hpp
+[0.535s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service/srv/live1288_service.hpp
+[0.535s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service/msg
+[0.535s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.536s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service
+[0.536s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service/srv
+[0.536s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service/srv/detail
+[0.536s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service/srv/detail/dds_fastrtps
+[0.537s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service/srv/detail/live1288_service__rosidl_typesupport_fastrtps_cpp.hpp
+[0.537s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service/msg
+[0.537s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.537s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/lib/liblive1288_service__rosidl_typesupport_fastrtps_cpp.so
+[0.537s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service
+[0.537s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service/srv
+[0.537s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service/srv/detail
+[0.537s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service/srv/detail/live1288_service__rosidl_typesupport_introspection_cpp.hpp
+[0.537s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/include/live1288_service/live1288_service/srv/detail/live1288_service__type_support.cpp
+[0.537s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/lib/liblive1288_service__rosidl_typesupport_introspection_cpp.so
+[0.537s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/lib/liblive1288_service__rosidl_typesupport_cpp.so
+[0.537s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/environment/pythonpath.sh
+[0.537s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/environment/pythonpath.dsv
+[0.537s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/local/lib/python3.10/dist-packages/live1288_service-0.0.0-py3.10.egg-info
+[0.537s] -- Installing: /home/lisvent/ros2_ws/install/live1288_service/local/lib/python3.10/dist-packages/live1288_service-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.537s] -- Installing: /home/lisvent/ros2_ws/install/live1288_service/local/lib/python3.10/dist-packages/live1288_service-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.537s] -- Installing: /home/lisvent/ros2_ws/install/live1288_service/local/lib/python3.10/dist-packages/live1288_service-0.0.0-py3.10.egg-info/PKG-INFO
+[0.537s] -- Installing: /home/lisvent/ros2_ws/install/live1288_service/local/lib/python3.10/dist-packages/live1288_service-0.0.0-py3.10.egg-info/top_level.txt
+[0.537s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/local/lib/python3.10/dist-packages/live1288_service
+[0.538s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/local/lib/python3.10/dist-packages/live1288_service/live1288_service_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.538s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/local/lib/python3.10/dist-packages/live1288_service/_live1288_service_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.538s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/local/lib/python3.10/dist-packages/live1288_service/live1288_service_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.538s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/local/lib/python3.10/dist-packages/live1288_service/_live1288_service_s.ep.rosidl_typesupport_c.c
+[0.538s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/local/lib/python3.10/dist-packages/live1288_service/srv
+[0.538s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/local/lib/python3.10/dist-packages/live1288_service/srv/_live1288_service.py
+[0.538s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/local/lib/python3.10/dist-packages/live1288_service/srv/_live1288_service_s.c
+[0.538s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/local/lib/python3.10/dist-packages/live1288_service/srv/__init__.py
+[0.538s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/local/lib/python3.10/dist-packages/live1288_service/liblive1288_service__rosidl_generator_py.so
+[0.538s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/local/lib/python3.10/dist-packages/live1288_service/_live1288_service_s.ep.rosidl_typesupport_introspection_c.c
+[0.538s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/local/lib/python3.10/dist-packages/live1288_service/__init__.py
+[0.538s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/local/lib/python3.10/dist-packages/live1288_service/live1288_service_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.571s] Listing '/home/lisvent/ros2_ws/install/live1288_service/local/lib/python3.10/dist-packages/live1288_service'...
+[0.571s] Listing '/home/lisvent/ros2_ws/install/live1288_service/local/lib/python3.10/dist-packages/live1288_service/srv'...
+[0.578s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/local/lib/python3.10/dist-packages/live1288_service/live1288_service_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.578s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/local/lib/python3.10/dist-packages/live1288_service/live1288_service_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.579s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/local/lib/python3.10/dist-packages/live1288_service/live1288_service_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.579s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/lib/liblive1288_service__rosidl_generator_py.so
+[0.579s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/srv/Live1288Service.idl
+[0.579s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/srv/Live1288Service.srv
+[0.579s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/srv/Live1288Service_Request.msg
+[0.580s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/srv/Live1288Service_Response.msg
+[0.580s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/share/ament_index/resource_index/package_run_dependencies/live1288_service
+[0.580s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/share/ament_index/resource_index/parent_prefix_path/live1288_service
+[0.580s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/environment/ament_prefix_path.sh
+[0.580s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/environment/ament_prefix_path.dsv
+[0.580s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/environment/path.sh
+[0.580s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/environment/path.dsv
+[0.581s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/local_setup.bash
+[0.581s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/local_setup.sh
+[0.581s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/local_setup.zsh
+[0.581s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/local_setup.dsv
+[0.581s] -- Installing: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/package.dsv
+[0.581s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/share/ament_index/resource_index/packages/live1288_service
+[0.582s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/cmake/export_live1288_service__rosidl_generator_cExport.cmake
+[0.582s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/cmake/export_live1288_service__rosidl_generator_cExport-noconfig.cmake
+[0.582s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/cmake/export_live1288_service__rosidl_typesupport_fastrtps_cExport.cmake
+[0.582s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/cmake/export_live1288_service__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.583s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/cmake/live1288_service__rosidl_typesupport_introspection_cExport.cmake
+[0.583s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/cmake/live1288_service__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.583s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/cmake/live1288_service__rosidl_typesupport_cExport.cmake
+[0.584s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/cmake/live1288_service__rosidl_typesupport_cExport-noconfig.cmake
+[0.584s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/cmake/export_live1288_service__rosidl_generator_cppExport.cmake
+[0.584s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/cmake/export_live1288_service__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.584s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/cmake/export_live1288_service__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.585s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/cmake/live1288_service__rosidl_typesupport_introspection_cppExport.cmake
+[0.585s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/cmake/live1288_service__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.585s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/cmake/live1288_service__rosidl_typesupport_cppExport.cmake
+[0.585s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/cmake/live1288_service__rosidl_typesupport_cppExport-noconfig.cmake
+[0.585s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/cmake/export_live1288_service__rosidl_generator_pyExport.cmake
+[0.585s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/cmake/export_live1288_service__rosidl_generator_pyExport-noconfig.cmake
+[0.585s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/cmake/rosidl_cmake-extras.cmake
+[0.586s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.586s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.586s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/cmake/ament_cmake_export_libraries-extras.cmake
+[0.586s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/cmake/ament_cmake_export_targets-extras.cmake
+[0.587s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.587s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.587s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/cmake/live1288_serviceConfig.cmake
+[0.588s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/cmake/live1288_serviceConfig-version.cmake
+[0.588s] -- Up-to-date: /home/lisvent/ros2_ws/install/live1288_service/share/live1288_service/package.xml
+[0.590s] Invoked command in '/home/lisvent/ros2_ws/build/live1288_service' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lisvent/ros2_ws/install/live1288_hw1:/opt/ros/humble /usr/bin/cmake --install /home/lisvent/ros2_ws/build/live1288_service

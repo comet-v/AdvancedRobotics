@@ -1,0 +1,6 @@
+{
+  "package_name": "live1288_service",
+  "non_idl_tuples": [
+    "/home/lisvent/ros2_ws/src/live1288_service:srv/Live1288Service.srv"
+  ]
+}
